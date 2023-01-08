@@ -1,0 +1,231 @@
+
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Product Details </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="jsfile.js"></script>
+        <link rel="stylesheet" href="style.css">
+        
+        
+    </head>
+    <body >
+
+        <div class="container">
+            <br>
+            <h3 id="info"> <b style="color:#008080 ;">Product Information</b> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-dash-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
+              </svg>
+                 </h3>
+            <br />
+            
+            <div class="text-container">
+            
+                <form action=" ">
+                    
+                    <input id="text" placeholder="search anything" oninput="getValue()"><button class = "button button1">Search</button>
+                    <p>Search for 
+                        <b style="color: blue;"><span id="result"></span></b>
+                    </p>
+
+                </form>
+                    </p>
+                <br>
+                
+            </div>
+            <hr /><br>
+    
+            <div class="row">
+                <div class="col-md-7">
+
+                    
+                    <h2 style="color: rgb(43, 101, 226);"> <a href="https://www.picture-organic-clothing.com/en/geraldeen-jkt-WVT252.html?dwvar_WVT252_color=Black"> 
+                        GERALDEEN JKT</a>
+
+                    </h2>
+                    <div style="font-size: xx-large;"> Price <b>$250 </b></div>
+                    <P style="color: rgb(22, 172, 22)" > 
+                        <b style="font-size:x-large ;">30% OFF</b></P>
+                        <h2> <b style="font-size: large;">Product details</b></h2>
+                    <p> 
+                        Geraldeen jackets designed for urban exploration and outdoor adventures. 
+                        The Geraldeen provides
+                         maximum waterproof-breathable performance. 
+            
+                    </p>
+                    <h2 style="font-size: large;"> <b>Category</b></h2> <br>
+                    <form>
+                        <div class ="size-select">
+                            <p style="font-size: large;">  Size:</b>
+                            <label for ="small">
+                                <input type="radio" name="size" id="small">
+                                <span><b>S</b></span>
+                            </label>
+                            <label for ="medium">
+                                <input type="radio" name="size" id="medium">
+                                <span><b>M</b></span>
+                            </label>
+                            <label for ="larg">
+                                <input type="radio" name="size" id="larg">
+                                <span><b>L</b></span>
+                            </label>
+                            <label for ="X-larg">
+                                <input type="radio" name="size" id="X-larg">
+                                <span><b>XL</b></span>
+                            </label>
+                        </p>
+                        </div>
+                    </form>
+                    <div class ="color-select">
+                        <p style="font-size: large;"> Color </p>
+                        <label for ="red">
+                            <input type="radio" name ="color" id="red">
+                            <span class ="color-1"></span>
+                        </label>
+                        <label for ="black">
+                            <input type="radio" name ="color" id="black">
+                            <span class ="color-2"></span>
+                        </label>
+                        <label for ="greenyellow">
+                            <input type="radio" name ="color" id="greenyellow">
+                            <span class ="color-3"></span>
+                        </label>
+                        <label for ="pink">
+                            <input type="radio" name ="color" id="pink">
+                            <span class ="color-4"></span>
+                        </label>
+
+                    </div>
+                    
+                    <div class="my-3">
+                       
+                        <button  class= "btn btn-outline-secondary" onclick="myFunction(event)">Dismiss </button>
+                        
+                
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="picture1.png" title="jacket" alt="picture" style="width: 350px; height: 450px">
+                    
+                </div>
+            </div> 
+            <hr />
+          
+            <br>
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 style="color: rgb(43, 101, 226);"> <a href= "https://www.walmart.com/ip/Ainehome-Furniture-Leather-Sectional-Sofa-3-Piece-L-Shaped-Living-Room-Couch-Sets-with-Chaise-Storage-Ottoman-and-Pillows/350754882"> 
+                        <b> Sectional Sofa Set</b> </a> 
+                    </h2>
+    
+                    <div style="font-size: xx-large;"> Price<b> $900</b></div><br>
+                    <h2> <b style="font-size: large;">Product details</b></h2>
+                    <p>Ainehome Furniture Leather Sectional Sofa. <br>
+                        3 Piece L Shaped Living Room Couch Sets with Chaise 
+                       Storage Ottoman and Pillows</p> 
+                       <h2> <b style="font-size: large;">Category</b></h2>
+                    <div>
+                        <p style="font-size: larger;">Size : <button type="button" class="btn btn-warning"> Left Hand Facing</button> </p>
+                    </div>
+                    <div class ="colorSelect">
+                        <p style="font-size: larger;">Color</p>
+                        <label for ="black">
+                            <input type="radio" name ="color" id="black">
+                            <span class ="color-p"></span>
+                        </label>
+                        </div>
+                    
+                    <div class="my-3">
+                        <button  class= "btn btn-outline-secondary" onclick="myFunction(event)">Dismiss </button>
+                        
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="sofa.jpeg" title="SOFA" alt="sofa" style="width: 500px; height: 350px">
+                </div>
+            </div> 
+            <hr />
+          
+            <br>
+            <div class="row">
+                <div class="col-md-7">
+                    
+                    <h2> <a href="https://www.bestbuy.com/site/tcl-43-class-3-series-full-hd-smart-android-tv/6481722.p?skuId=6481722&ref=212&loc=1&extStoreId=1115&ref=212&loc=1&gclid=EAIaIQobChMIqaW4mo23_AIVA4vICh08HQN0EAQYBCABEgI_7PD_BwE&gclsrc=aw.ds" >Full HD Smart Android TV</a></h2>
+                    <div style= "font-size: xx-large;">Price <b> $179</b> <br> 
+                    <p> <button type="button" class="btn btn-danger"> Save $50</button>
+                    </p></div>
+                    <p>Was $229.99</p>  
+                    <p><b>TCL - 43" Class 3-Series Full
+                         HD Smart Android TV</b></p>
+                         <div>
+                           
+                         </div>
+                         <h2> <b style="font-size: large;">Product Details</Details></b></h2>
+                            <p>Clearer and sharper than HD.<br>
+                                Ideal for movies and games. <br>
+                                Easily find Full HD content. <br>Superior brightness
+                                ,high color contrast
+                                and best viewing angle is center. </p>
+                                <h2> <b style="font-size: large;">Category</b></h2>
+                         <div>
+                            <ul>
+                                <li>Series: 3</li>
+                                <li>Screen Size: 43" </li>
+                                <li> Resolution: Full HD(1080P)</li>
+                                    <li> Smart Platform: Android Tv </li>
+                            </ul>
+                         </div>
+                    
+                    <div class="my-3">
+                       
+                       <button  class= "btn btn-outline-secondary" onclick="myFunction(event)">Dismiss </button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="picc-1.jpg" title="TV" alt="Tv" style="width: 500px; height: 350px">
+                </div>
+            </div> 
+            <hr />
+          
+            <br>
+            <div class="row">
+                <div class="col-md-7">
+                    
+                    <h2><a href="https://www.amazon.com/Detachable-Straightener-Curling-One-Step-Straightening/dp/B08Z2YBBT2"> Hair Dryer Brushes Set</a></h2>
+                    <div style="font-size: xx-large;"> Price <b>$69.99</b></div>
+                    <p><b style="font-size: large;"> Product Details</Details> </b> 
+                        <br>
+                        <ol type="I">
+                            <li> Professional Hair Dryer Brushes Set.</li>
+                            <li>5 in 1 Hot Air Dryer Brush Set with Detachable Hair Brush Comb. </li>
+                            <li>One-Step Hot Hair Dryer for Straightening Curling.</li>
+                            <li> This brush meets U.S. safety requirements <br> and proudly 
+                                features the ETL Certification seal(1100W, 125V 60Hz).</li>
+
+                        </ol>
+                    <div> <h2> <b style="font-size: large;">Category</b></h2> 
+                        <P style="color:rgb(0, 34, 255)"> 
+                            Brand :	CZX <br>
+                            Color :	Black <br>
+                            Material :	Nylon, Ceramic<br>
+                            Power Source :	Corded Electric <br>
+                            Special Feature :	Lightweight <br>
+                        </p></div>
+                    <div class="my-3">
+                        <button  class= "btn btn-outline-secondary" onclick="myFunction(event)">Dismiss </button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="pi-2.jpg" title="Hair Dryer" style="width: 400px; height: 450px">
+                </div>
+            </div> 
+            <hr />
+           <br>
+        </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
